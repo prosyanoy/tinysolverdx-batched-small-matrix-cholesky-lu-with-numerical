@@ -1,0 +1,122 @@
+kind,n,precision,series,gflops,batch,threads
+chol,2,fp64,tsdx simd (all threads),0.39000607075575283,20000,14
+chol,2,fp64,tsdx scalar (all threads),0.5510096915420731,20000,14
+chol,2,fp64,tsdx simd (1 thread),0.395061743698221,20000,14
+chol,2,fp64,naive C++ (1 thread),0.4866934581061402,20000,14
+chol,2,fp64,numpy batched,0.05122870446678874,20000,14
+chol,2,fp64,python loop (numpy/scipy),0.0016980934144312553,20000,14
+chol,3,fp64,tsdx simd (all threads),0.8291721114669031,20000,14
+chol,3,fp64,tsdx scalar (all threads),1.128236632733085,20000,14
+chol,3,fp64,tsdx simd (1 thread),0.6718523836520541,20000,14
+chol,3,fp64,naive C++ (1 thread),0.8493931343137842,20000,14
+chol,3,fp64,numpy batched,0.12521016244334407,20000,14
+chol,3,fp64,python loop (numpy/scipy),0.006136826662908991,20000,14
+chol,4,fp64,tsdx simd (all threads),1.702696042819836,20000,14
+chol,4,fp64,tsdx scalar (all threads),1.6872631094426385,20000,14
+chol,4,fp64,tsdx simd (1 thread),1.1006009200215683,20000,14
+chol,4,fp64,naive C++ (1 thread),1.1244107911625263,20000,14
+chol,4,fp64,numpy batched,0.24166902706913945,20000,14
+chol,4,fp64,python loop (numpy/scipy),0.013542348218174986,20000,14
+chol,6,fp64,tsdx simd (all threads),3.3081241427806787,20000,14
+chol,6,fp64,tsdx scalar (all threads),3.538805250752572,20000,14
+chol,6,fp64,tsdx simd (1 thread),1.9294336529142038,20000,14
+chol,6,fp64,naive C++ (1 thread),1.4952618960019517,20000,14
+chol,6,fp64,numpy batched,0.5390482404960231,20000,14
+chol,6,fp64,python loop (numpy/scipy),0.04535353082658799,20000,14
+chol,8,fp64,tsdx simd (all threads),6.09070285417697,20000,14
+chol,8,fp64,tsdx scalar (all threads),6.32440740832789,20000,14
+chol,8,fp64,tsdx simd (1 thread),3.022320606562267,20000,14
+chol,8,fp64,naive C++ (1 thread),1.7767746302794503,20000,14
+chol,8,fp64,numpy batched,0.8430065045846864,20000,14
+chol,8,fp64,python loop (numpy/scipy),0.09732452576573737,20000,14
+chol,12,fp64,tsdx simd (all threads),10.642226480093903,14563,14
+chol,12,fp64,tsdx scalar (all threads),10.688549240690609,14563,14
+chol,12,fp64,tsdx simd (1 thread),4.07017264174435,14563,14
+chol,12,fp64,naive C++ (1 thread),2.285066105465906,14563,14
+chol,12,fp64,numpy batched,1.515681563924604,14563,14
+chol,12,fp64,python loop (numpy/scipy),0.292993090527374,14563,14
+chol,16,fp64,tsdx simd (all threads),14.099235199629865,8192,14
+chol,16,fp64,tsdx scalar (all threads),11.947988457093043,8192,14
+chol,16,fp64,tsdx simd (1 thread),5.20799054012227,8192,14
+chol,16,fp64,naive C++ (1 thread),2.6169929596560833,8192,14
+chol,16,fp64,numpy batched,2.116615205378025,8192,14
+chol,16,fp64,python loop (numpy/scipy),0.584454034900635,8192,14
+chol,24,fp64,tsdx simd (all threads),20.808153870685633,3640,14
+chol,24,fp64,tsdx scalar (all threads),14.374910584016975,3640,14
+chol,24,fp64,tsdx simd (1 thread),6.59525818452006,3640,14
+chol,24,fp64,naive C++ (1 thread),3.2227596366984375,3640,14
+chol,24,fp64,numpy batched,3.2950113126654954,3640,14
+chol,24,fp64,python loop (numpy/scipy),1.383910680023716,3640,14
+chol,32,fp64,tsdx simd (all threads),24.759974273576884,2048,14
+chol,32,fp64,tsdx scalar (all threads),18.603879809718844,2048,14
+chol,32,fp64,tsdx simd (1 thread),8.1128982400935,2048,14
+chol,32,fp64,naive C++ (1 thread),2.6611756126942714,2048,14
+chol,32,fp64,numpy batched,3.730368556181834,2048,14
+chol,32,fp64,python loop (numpy/scipy),2.235820676083403,2048,14
+chol,48,fp64,tsdx simd (all threads),30.945290201504218,2048,14
+chol,48,fp64,tsdx scalar (all threads),24.331457803991658,2048,14
+chol,48,fp64,tsdx simd (1 thread),7.903355991951338,2048,14
+chol,48,fp64,naive C++ (1 thread),4.30847868460181,2048,14
+chol,48,fp64,numpy batched,5.73325919566361,2048,14
+chol,48,fp64,python loop (numpy/scipy),4.411079131189164,2048,14
+chol,64,fp64,tsdx simd (all threads),45.05320712679467,2048,14
+chol,64,fp64,tsdx scalar (all threads),34.6961477337468,2048,14
+chol,64,fp64,tsdx simd (1 thread),5.916014468282674,2048,14
+chol,64,fp64,naive C++ (1 thread),1.50227469410104,2048,14
+chol,64,fp64,numpy batched,6.902007298409396,2048,14
+chol,64,fp64,python loop (numpy/scipy),5.533382586377453,2048,14
+lu,2,fp64,tsdx simd (all threads),0.6517338086322312,20000,14
+lu,2,fp64,tsdx scalar (all threads),0.9463983363328119,20000,14
+lu,2,fp64,tsdx simd (1 thread),0.6066327947771096,20000,14
+lu,2,fp64,naive C++ (1 thread),0.4809310883891253,20000,14
+lu,2,fp64,python loop (numpy/scipy),0.0026831753385024777,20000,14
+lu,3,fp64,tsdx simd (all threads),1.339534910760615,20000,14
+lu,3,fp64,tsdx scalar (all threads),1.5152599711770605,20000,14
+lu,3,fp64,tsdx simd (1 thread),0.898595955828285,20000,14
+lu,3,fp64,naive C++ (1 thread),0.5792819839584932,20000,14
+lu,3,fp64,python loop (numpy/scipy),0.008719054627959523,20000,14
+lu,4,fp64,tsdx simd (all threads),2.868752214492991,20000,14
+lu,4,fp64,tsdx scalar (all threads),2.646339475103996,20000,14
+lu,4,fp64,tsdx simd (1 thread),1.470524020057528,20000,14
+lu,4,fp64,naive C++ (1 thread),0.6958652896422998,20000,14
+lu,4,fp64,python loop (numpy/scipy),0.019963610105830254,20000,14
+lu,6,fp64,tsdx simd (all threads),5.664641459255285,20000,14
+lu,6,fp64,tsdx scalar (all threads),5.306310455792529,20000,14
+lu,6,fp64,tsdx simd (1 thread),2.3754203615970644,20000,14
+lu,6,fp64,naive C++ (1 thread),1.1047002699249155,20000,14
+lu,6,fp64,python loop (numpy/scipy),0.062247085322197526,20000,14
+lu,8,fp64,tsdx simd (all threads),11.192027319986718,20000,14
+lu,8,fp64,tsdx scalar (all threads),9.603188563557477,20000,14
+lu,8,fp64,tsdx simd (1 thread),3.9293944500857694,20000,14
+lu,8,fp64,naive C++ (1 thread),1.5004625940854945,20000,14
+lu,8,fp64,python loop (numpy/scipy),0.13902027653470497,20000,14
+lu,12,fp64,tsdx simd (all threads),20.207678197006953,14563,14
+lu,12,fp64,tsdx scalar (all threads),17.739680919894724,14563,14
+lu,12,fp64,tsdx simd (1 thread),5.700823101082227,14563,14
+lu,12,fp64,naive C++ (1 thread),2.124457585481649,14563,14
+lu,12,fp64,python loop (numpy/scipy),0.3723402087167268,14563,14
+lu,16,fp64,tsdx simd (all threads),25.14500058696957,8192,14
+lu,16,fp64,tsdx scalar (all threads),25.303799146908652,8192,14
+lu,16,fp64,tsdx simd (1 thread),6.80125743404842,8192,14
+lu,16,fp64,naive C++ (1 thread),2.469382652388889,8192,14
+lu,16,fp64,python loop (numpy/scipy),0.6712782087341451,8192,14
+lu,24,fp64,tsdx simd (all threads),29.643207793679544,3640,14
+lu,24,fp64,tsdx scalar (all threads),35.62904288169711,3640,14
+lu,24,fp64,tsdx simd (1 thread),6.4466538755617835,3640,14
+lu,24,fp64,naive C++ (1 thread),3.1377285148313523,3640,14
+lu,24,fp64,python loop (numpy/scipy),1.718610371538525,3640,14
+lu,32,fp64,tsdx simd (all threads),32.2725970161448,2048,14
+lu,32,fp64,tsdx scalar (all threads),44.12880901701163,2048,14
+lu,32,fp64,tsdx simd (1 thread),6.220947301318268,2048,14
+lu,32,fp64,naive C++ (1 thread),2.977405718649159,2048,14
+lu,32,fp64,python loop (numpy/scipy),2.75761082303439,2048,14
+lu,48,fp64,tsdx simd (all threads),46.40762063429114,2048,14
+lu,48,fp64,tsdx scalar (all threads),59.40783912275026,2048,14
+lu,48,fp64,tsdx simd (1 thread),7.848649678902584,2048,14
+lu,48,fp64,naive C++ (1 thread),3.6915822738638204,2048,14
+lu,48,fp64,python loop (numpy/scipy),5.773921165885702,2048,14
+lu,64,fp64,tsdx simd (all threads),50.55906501841267,2048,14
+lu,64,fp64,tsdx scalar (all threads),74.4058814404244,2048,14
+lu,64,fp64,tsdx simd (1 thread),6.472637629792308,2048,14
+lu,64,fp64,naive C++ (1 thread),3.2775764236633242,2048,14
+lu,64,fp64,python loop (numpy/scipy),7.970073065774749,2048,14

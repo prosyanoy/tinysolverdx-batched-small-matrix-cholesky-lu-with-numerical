@@ -1,0 +1,24 @@
+# build output
+build/
+cmake-build-*/
+*.so
+*.o
+*.a
+*.pyd
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/
+# secrets / local config
+.env
+.env.*
+!.env.example
+# caches / editors
+.cache/
+.DS_Store
+.idea/
+.vscode/
